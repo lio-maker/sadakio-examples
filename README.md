@@ -15,21 +15,20 @@ None of them invents a number. Where the API declines to estimate money without
 an average ticket, the examples decline too — a figure a dashboard makes up is a
 figure somebody repeats in a meeting.
 
-## What runs today
+## What you need
 
 | | Status |
 |---|---|
 | `mcp-in-cursor` | **Works now.** `sadakio-mcp` is published on [npm](https://www.npmjs.com/package/sadakio-mcp) and [PyPI](https://pypi.org/project/sadakio-mcp/) |
-| `retention-dashboard`, `guest-sync-csv` | **Code is final, but the `sadakio` client packages are not published yet.** Read them now, run them when the clients ship |
+| `retention-dashboard`, `guest-sync-csv` | **Work now.** The `sadakio` client is published on [npm](https://www.npmjs.com/package/sadakio) and [PyPI](https://pypi.org/project/sadakio/) |
 
-Said plainly because a README that tells you to install something that does not
-exist wastes your time and ours.
+All three run today.
 
 ## Install the client first
 
 ```bash
-npm install sadakio     # Node 18+   — not published yet
-pip install sadakio     # Python 3.10+ — not published yet
+npm install sadakio     # Node 18+
+pip install sadakio     # Python 3.10+
 ```
 
 The MCP server needs no install at all:
