@@ -1,0 +1,10 @@
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# produced by the examples when you run them
+guests.csv
+.sadakio-sync.json
+.env

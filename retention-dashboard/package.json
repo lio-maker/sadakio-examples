@@ -1,0 +1,9 @@
+{
+  "name": "sadakio-example-retention-dashboard",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A one-file retention dashboard on top of the Sadakio API",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "sadakio": "^0.1.0" }
+}
