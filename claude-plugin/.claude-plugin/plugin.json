@@ -1,0 +1,15 @@
+{
+  "name": "sadakio-developer-docs",
+  "displayName": "Sadakio Developer Docs",
+  "version": "1.0.0",
+  "description": "Build loyalty apps on Sadakio: search the Sadakio developer docs in English and Turkish, read solution recipes, list Platform API and Business API endpoints and get exact endpoint contracts. Read-only, public documentation only.",
+  "author": {
+    "name": "Sadakio",
+    "email": "biz@sadakio.com",
+    "url": "https://sadakio.com"
+  },
+  "homepage": "https://sadakio.com/en/docs/",
+  "repository": "https://github.com/lio-maker/sadakio-examples",
+  "license": "MIT",
+  "keywords": ["sadakio", "loyalty", "cafe", "api", "turkiye", "developer-docs"]
+}

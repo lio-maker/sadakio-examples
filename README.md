@@ -38,6 +38,10 @@ npx sadakio-mcp         # Node 18+
 uvx sadakio-mcp         # Python 3.10+
 ```
 
+## Claude plugin
+
+[`claude-plugin/`](claude-plugin/) is the Sadakio Developer Docs plugin for Claude: the remote read-only MCP server at `https://api.sadakio.com/mcp` plus a guided `build-on-sadakio` skill. See its README for what it runs and sends.
+
 ## Where the docs are
 
 - Developer quickstart: https://sadakio.com/gelistirici
