@@ -11,5 +11,14 @@
   "homepage": "https://sadakio.com/en/docs/",
   "repository": "https://github.com/lio-maker/sadakio-examples",
   "license": "MIT",
-  "keywords": ["sadakio", "loyalty", "cafe", "api", "turkiye", "developer-docs"]
+  "privacyPolicyUrl": "https://sadakio.com/privacy",
+  "icon": "./.claude-plugin/icon.png",
+  "keywords": [
+    "sadakio",
+    "loyalty",
+    "cafe",
+    "api",
+    "turkiye",
+    "developer-docs"
+  ]
 }
