@@ -7,6 +7,7 @@ Three small, complete things you can run today against your own business's data.
 | [`retention-dashboard`](retention-dashboard) | A one-file web dashboard: who came back this month, and the ten most frequent guests | Node, `sadakio` |
 | [`guest-sync-csv`](guest-sync-csv) | An incremental guest export to CSV you can open in Sheets or Excel | Python, `sadakio` |
 | [`mcp-in-cursor`](mcp-in-cursor) | Connecting an AI assistant to your data in about two minutes | No code |
+| [`woocommerce-plugin`](woocommerce-plugin) | A WordPress plugin: paid WooCommerce orders earn on the guest's Sadakio card, cancellations reverse it | PHP, WooCommerce |
 
 All three are read-only, because the Public API v1 is read-only. All three need
 one key, created in the Sadakio panel under **Ayarlar → API**.

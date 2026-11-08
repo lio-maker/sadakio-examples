@@ -1,0 +1,252 @@
+# Copyright (C) 2026 Sadakio
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sadakio Sadakat 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/p\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-08T22:36:58+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: sadakio-sadakat\n"
+
+#. Plugin Name of the plugin
+#: sadakio-sadakat.php
+#: includes/class-sadakio-sadakat-settings.php:86
+#: includes/class-sadakio-sadakat-settings.php:201
+msgid "Sadakio Sadakat"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: sadakio-sadakat.php
+msgid "https://github.com/lio-maker/sadakio-examples/tree/main/woocommerce-plugin/sadakio-sadakat"
+msgstr ""
+
+#. Description of the plugin
+#: sadakio-sadakat.php
+msgid "WooCommerce siparişlerinizi Sadakio sadakat programınıza bağlar: ödenen siparişler puan/damga kazandırır, iptal ve iadeler geri alınır, müşteriler bakiyesini görür."
+msgstr ""
+
+#. Author of the plugin
+#: sadakio-sadakat.php
+#: includes/class-sadakio-sadakat-settings.php:87
+msgid "Sadakio"
+msgstr ""
+
+#. Author URI of the plugin
+#: sadakio-sadakat.php
+msgid "https://sadakio.com"
+msgstr ""
+
+#. translators: %s: transport error message
+#: includes/class-sadakio-sadakat-api.php:66
+#, php-format
+msgid "Sunucuya ulaşılamadı (%s)"
+msgstr ""
+
+#. translators: 1: HTTP status code, 2: error code, 3: error message
+#: includes/class-sadakio-sadakat-api.php:69
+#, php-format
+msgid "HTTP %1$d %2$s: %3$s"
+msgstr ""
+
+#: includes/class-sadakio-sadakat-api.php:149
+msgid "API anahtarı girilmemiş."
+msgstr ""
+
+#: includes/class-sadakio-sadakat-balance-box.php:134
+msgid "Damga"
+msgstr ""
+
+#: includes/class-sadakio-sadakat-balance-box.php:137
+msgid "Puan"
+msgstr ""
+
+#: includes/class-sadakio-sadakat-balance-box.php:140
+msgid "Cashback"
+msgstr ""
+
+#: includes/class-sadakio-sadakat-balance-box.php:143
+msgid "Bekleyen ödül"
+msgstr ""
+
+#: includes/class-sadakio-sadakat-balance-box.php:150
+msgid "Sadakat bakiyeniz"
+msgstr ""
+
+#. translators: %s: masked phone number
+#: includes/class-sadakio-sadakat-balance-box.php:161
+#, php-format
+msgid "Kartınız %s numarasına bağlıdır."
+msgstr ""
+
+#: includes/class-sadakio-sadakat-orders.php:105
+msgid "Sadakio'ya yeniden gönder"
+msgstr ""
+
+#. translators: %s: order currency code
+#: includes/class-sadakio-sadakat-orders.php:154
+#, php-format
+msgid "Sadakio: sipariş para birimi %s olduğu için gönderilmedi; yalnızca TRY siparişleri işlenir."
+msgstr ""
+
+#: includes/class-sadakio-sadakat-orders.php:162
+msgid "Sadakio: fatura telefonu boş olduğu için sipariş gönderilmedi."
+msgstr ""
+
+#: includes/class-sadakio-sadakat-orders.php:193
+msgid "sipariş gönderilemedi"
+msgstr ""
+
+#: includes/class-sadakio-sadakat-orders.php:234
+msgid "Sadakio: bu sipariş Sadakio'da kayıtlı değil; geri alınacak bir kazanım yok."
+msgstr ""
+
+#: includes/class-sadakio-sadakat-orders.php:236
+msgid "Sadakio: sipariş daha önce iptal edilmiş; değişiklik yapılmadı."
+msgstr ""
+
+#. translators: %d: number of reversed loyalty transactions
+#: includes/class-sadakio-sadakat-orders.php:240
+#, php-format
+msgid "Sadakio: sipariş iptal edildi, %d kazanım geri alındı."
+msgstr ""
+
+#: includes/class-sadakio-sadakat-orders.php:246
+msgid "iptal gönderilemedi"
+msgstr ""
+
+#. translators: 1: what failed, 2: error description, 3: retry number, 4: max retries
+#: includes/class-sadakio-sadakat-orders.php:271
+#, php-format
+msgid "Sadakio: %1$s. %2$s. Yeniden deneme %3$d/%4$d planlandı."
+msgstr ""
+
+#. translators: 1: what failed, 2: error description
+#: includes/class-sadakio-sadakat-orders.php:280
+#, php-format
+msgid "Sadakio: %1$s. %2$s. Siparişi daha sonra \"Sadakio'ya yeniden gönder\" işlemiyle tekrar gönderebilirsiniz."
+msgstr ""
+
+#: includes/class-sadakio-sadakat-orders.php:292
+msgid "Sadakio: sipariş daha önce kaydedilmiş; tekrar kazanım verilmedi."
+msgstr ""
+
+#. translators: %d: stamps earned
+#: includes/class-sadakio-sadakat-orders.php:298
+#, php-format
+msgid "%d damga"
+msgstr ""
+
+#. translators: %d: points earned
+#: includes/class-sadakio-sadakat-orders.php:302
+#, php-format
+msgid "%d puan"
+msgstr ""
+
+#. translators: %s: cashback amount, e.g. 12.50
+#: includes/class-sadakio-sadakat-orders.php:306
+#, php-format
+msgid "%s TL cashback"
+msgstr ""
+
+#. translators: %s: reward label
+#: includes/class-sadakio-sadakat-orders.php:310
+#, php-format
+msgid "ödül: %s"
+msgstr ""
+
+#: includes/class-sadakio-sadakat-orders.php:313
+msgid "Sadakio: sipariş kaydedildi; bu siparişle yeni kazanım olmadı."
+msgstr ""
+
+#. translators: %s: comma-separated list, e.g. "25 puan"
+#: includes/class-sadakio-sadakat-orders.php:316
+#, php-format
+msgid "Sadakio: %s kazandı."
+msgstr ""
+
+#: includes/class-sadakio-sadakat-settings.php:109
+#: includes/class-sadakio-sadakat-settings.php:147
+msgid "Bu işlem için yetkiniz yok."
+msgstr ""
+
+#: includes/class-sadakio-sadakat-settings.php:174
+msgid "Ayarlar kaydedildi."
+msgstr ""
+
+#: includes/class-sadakio-sadakat-settings.php:177
+msgid "API adresi https ile başlamıyor. Canlı mağazada yalnızca https kullanın; http yalnızca yerel test içindir."
+msgstr ""
+
+#: includes/class-sadakio-sadakat-settings.php:184
+msgid "Bağlantı başarılı: Sadakio API anahtarınızı kabul etti."
+msgstr ""
+
+#: includes/class-sadakio-sadakat-settings.php:186
+msgid "Bağlantı kurulamadı:"
+msgstr ""
+
+#: includes/class-sadakio-sadakat-settings.php:203
+msgid "Ödenen WooCommerce siparişleri, müşterinin fatura telefonuyla Sadakio sadakat programınıza işlenir. İptal edilen veya tamamen iade edilen siparişlerin kazanımları geri alınır."
+msgstr ""
+
+#: includes/class-sadakio-sadakat-settings.php:210
+msgid "API anahtarı"
+msgstr ""
+
+#: includes/class-sadakio-sadakat-settings.php:213
+msgid "Anahtarınızı yapıştırın"
+msgstr ""
+
+#. translators: %s: last four characters of the saved key, e.g. ••••ab12
+#: includes/class-sadakio-sadakat-settings.php:218
+#, php-format
+msgid "Kayıtlı anahtar: %s. Değiştirmek için yenisini yazın; boş bırakırsanız mevcut anahtar korunur."
+msgstr ""
+
+#: includes/class-sadakio-sadakat-settings.php:221
+msgid "Kayıtlı anahtarı sil"
+msgstr ""
+
+#: includes/class-sadakio-sadakat-settings.php:223
+msgid "Anahtarı Sadakio panelinde Ayarlar → API bölümünden oluşturabilirsiniz. Siparişlerin işlenebilmesi için anahtarın yazma (write) izni olmalıdır."
+msgstr ""
+
+#: includes/class-sadakio-sadakat-settings.php:227
+msgid "API adresi"
+msgstr ""
+
+#. translators: %s: default API base URL
+#: includes/class-sadakio-sadakat-settings.php:233
+#, php-format
+msgid "Varsayılan: %s. Sadakio aksini söylemedikçe değiştirmeyin."
+msgstr ""
+
+#: includes/class-sadakio-sadakat-settings.php:239
+msgid "Kaydet"
+msgstr ""
+
+#: includes/class-sadakio-sadakat-settings.php:242
+msgid "Bağlantı testi"
+msgstr ""
+
+#: includes/class-sadakio-sadakat-settings.php:243
+msgid "Kayıtlı anahtar ve adresle Sadakio'ya örnek bir bakiye sorgusu gönderir. Hiçbir müşteri kaydı oluşturulmaz."
+msgstr ""
+
+#: includes/class-sadakio-sadakat-settings.php:247
+msgid "Bağlantıyı test et"
+msgstr ""
+
+#: sadakio-sadakat.php:73
+msgid "Sadakio Sadakat çalışmak için WooCommerce eklentisine ihtiyaç duyar. Lütfen WooCommerce'i etkinleştirin."
+msgstr ""
+
+#: sadakio-sadakat.php:85
+msgid "Ayarlar"
+msgstr ""
