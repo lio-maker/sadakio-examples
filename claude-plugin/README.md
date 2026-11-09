@@ -31,6 +31,11 @@ To make real API calls from your own code you need your own key: developers sign
 - Support: biz@sadakio.com, https://sadakio.com/support
 - Privacy policy: https://sadakio.com/privacy
 
+## Changes
+
+- 1.1.0: every tool carries its title in its annotations; `get_endpoint` states that it only reads the published contract and never calls the endpoint. Tool names and inputs are unchanged.
+- 1.0.0: first release.
+
 ## License
 
 MIT, see [LICENSE](LICENSE).
